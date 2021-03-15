@@ -4,7 +4,7 @@
 body{
     margin: 0px;
 }
-@keyframes mov1{
+/* @keyframes mov1{
     0%{top: 50px; left: 50px; height: 50px;}
     25%{top: 50px; left: 50px; height: 100px;}
     50%{top: 50px; left: 50px; height: 150px;}
@@ -27,8 +27,27 @@ body{
     0%{top: 50px; left: 150px; width: 50px; visibility: hidden;}
     50%{top: 50px; left: 100px; width: 100px; visibility: visible;}
     100%{top: 50px; left: 50px; width: 150px;}
+} */
+@keyframes mov_h_1{
+    0%{top: 50px; left: 50px; height: 50px;}
+    25%{top: 50px; left: 50px; height: 100px;}
+    50%{top: 50px; left: 50px; height: 150px;}
+    75%{top: 50px; left: 50px; height: 200px;}
+    100%{top: 50px; left: 50px; height: 250px;}
 }
-.animacao1{
+@keyframes mov_h_2{
+    0%{top: 150px; left: 50px; width: 50px; visibility: hidden;}
+    50%{top: 150px; left: 50px; width: 100px; visibility: visible;}
+    100%{top: 150px; left: 50px; width: 150px;}
+}
+@keyframes mov_h_3{
+    0%{top: 250px; left: 150px; height: 50px; visibility: hidden;}
+    25%{top: 200px; left: 150px; height: 100px; visibility: visible;}
+    50%{top: 150px; left: 150px; height: 150px;}
+    75%{top: 100px; left: 150px; height: 200px;}
+    100%{top: 50px; left: 150px; height: 250px;}
+}
+/* .animacao_o_1{
     width: 50px;
     height: 50px;
     background-color: cadetblue;
@@ -36,13 +55,11 @@ body{
     animation-name: mov1;
     animation-duration: 1s;
     animation-timing-function: linear; 
-    /* PARA ADICIONAR UM MOVIMENTO LINEAR RETO */
     animation-delay: 1s;
     animation-iteration-count: 1;
     animation-fill-mode: both;
-    /* DEIXA O BLOCO NO LUGAR FINAL DA ANIMAÇÃO */
 }
-.animacao2{
+.animacao_o_2{
     width: 50px;
     height: 50px;
     background-color: cadetblue;
@@ -53,7 +70,7 @@ body{
     animation-timing-function: linear;
     animation-fill-mode: both;
 }
-.animacao3{
+.animacao_o_3{
     width: 50px;
     height: 50px;
     background-color: cadetblue;
@@ -64,7 +81,7 @@ body{
     animation-timing-function: linear;
     animation-fill-mode: both;
 }
-.animacao4{
+.animacao_o_4{
     width: 50px;
     height: 50px;
     background-color: cadetblue;
@@ -74,4 +91,36 @@ body{
     animation-delay: 3s;
     animation-timing-function: linear;
     animation-fill-mode: both;
+} */
+.animacao_h_1{
+    width: 50px;
+    height: 50px;
+    background-color: cadetblue;
+    position: absolute;
+    animation-name: mov_h_1;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+.animacao_h_2{
+    width: 50px;
+    height: 50px;
+    background-color: cadetblue;
+    position: absolute;
+    animation-name: mov_h_2;
+    animation-duration: 0.5s;
+    animation-delay: 1.7s;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+}
+.animacao_h_3{
+    width: 50px;
+    height: 50px;
+    background-color: cadetblue;
+    position: absolute;
+    animation-name: mov_h_3;
+    animation-duration: 0.5s;
+    animation-delay: 2.7s;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
 }
