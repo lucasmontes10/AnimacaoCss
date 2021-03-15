@@ -4,30 +4,6 @@
 body{
     margin: 0px;
 }
-/* @keyframes mov1{
-    0%{top: 50px; left: 50px; height: 50px;}
-    25%{top: 50px; left: 50px; height: 100px;}
-    50%{top: 50px; left: 50px; height: 150px;}
-    75%{top: 50px; left: 50px; height: 200px;}
-    100%{top: 50px; left: 50px; height: 250px;}
-}
-@keyframes mov2{
-    0%{top: 250px; left: 50px; width: 50px; visibility: hidden;}
-    50%{top: 250px; left: 50px; width: 100px; visibility: visible;}
-    100%{top: 250px; left: 50px; width: 150px;}
-}
-@keyframes mov3{
-    0%{top: 250px; left: 150px; height: 50px; visibility: hidden;}
-    25%{top: 200px; left: 150px; height: 100px; visibility: visible;}
-    50%{top: 150px; left: 150px; height: 150px;}
-    75%{top: 100px; left: 150px; height: 200px;}
-    100%{top: 50px; left: 150px; height: 250px;}
-}
-@keyframes mov4{
-    0%{top: 50px; left: 150px; width: 50px; visibility: hidden;}
-    50%{top: 50px; left: 100px; width: 100px; visibility: visible;}
-    100%{top: 50px; left: 50px; width: 150px;}
-} */
 @keyframes mov_h_1{
     0%{top: 50px; left: 50px; height: 50px;}
     25%{top: 50px; left: 50px; height: 100px;}
@@ -93,51 +69,40 @@ body{
     50%{top: 250px; left: 650px; width: 100px; visibility: visible;}
     100%{top: 250px; left: 650px; width: 150px;}
 }
-/* .animation_o_1{
-    width: 50px;
-    height: 50px;
-    background-color: cadetblue;
-    position: absolute;
-    animation-name: mov1;
-    animation-duration: 1s;
-    animation-timing-function: linear; 
-    animation-delay: 1s;
-    animation-iteration-count: 1;
-    animation-fill-mode: both;
+@keyframes mov_o_1{
+    0%{top: 50px; left: 850px; height: 50px;visibility: hidden;}
+    25%{top: 50px; left: 850px; height: 100px;visibility: visible;}
+    50%{top: 50px; left: 850px; height: 150px;}
+    75%{top: 50px; left: 850px; height: 200px;}
+    100%{top: 50px; left: 850px; height: 250px;}
 }
-.animation_o_2{
-    width: 50px;
-    height: 50px;
-    background-color: cadetblue;
-    position: absolute;
-    animation-name: mov2;
-    animation-duration: 0.5s;
-    animation-delay: 2s;
-    animation-timing-function: linear;
-    animation-fill-mode: both;
+@keyframes mov_o_2{
+    0%{top: 250px; left: 850px; width: 50px; visibility: hidden;}
+    50%{top: 250px; left: 850px; width: 100px; visibility: visible;}
+    100%{top: 250px; left: 850px; width: 150px;}
 }
-.animation_o_3{
-    width: 50px;
-    height: 50px;
-    background-color: cadetblue;
-    position: absolute;
-    animation-name: mov3;
-    animation-duration: 0.5s;
-    animation-delay: 2.5s;
-    animation-timing-function: linear;
-    animation-fill-mode: both;
+@keyframes mov_o_3{
+    0%{top: 250px; left: 950px; height: 50px; visibility: hidden;}
+    25%{top: 200px; left: 950px; height: 100px; visibility: visible;}
+    50%{top: 150px; left: 950px; height: 150px;}
+    75%{top: 100px; left: 950px; height: 200px;}
+    100%{top: 50px; left: 950px; height: 250px;}
 }
-.animation_o_4{
-    width: 50px;
-    height: 50px;
-    background-color: cadetblue;
-    position: absolute;
-    animation-name: mov4;
-    animation-duration: 0.5s;
-    animation-delay: 3s;
-    animation-timing-function: linear;
-    animation-fill-mode: both;
-} */
+@keyframes mov_o_4{
+    0%{top: 50px; left: 950px; width: 50px; visibility: hidden;}
+    50%{top: 50px; left: 900px; width: 100px; visibility: visible;}
+    100%{top: 50px; left: 850px; width: 150px;}
+}
+@keyframes mov_excla{
+    0%{top: 50px; left: 1150px; height: 50px;visibility: hidden;}
+    25%{top: 50px; left: 1150px; height: 100px;visibility: visible;}
+    50%{top: 50px; left: 1150px; height: 150px;}
+    100%{top: 50px; left: 1150px; height: 200px;}
+}
+@keyframes mov_excla2{
+    0%{top: 50px; left: 1150px; height: 200px;visibility: hidden;}
+    100%{top: 50px; left: 1150px; height: 250px;visibility: visible;}
+}
 .animation_h_1{
     width: 50px;
     height: 50px;
@@ -255,6 +220,73 @@ body{
     animation-name: mov_L_2_2;
     animation-duration: 0.5s;
     animation-delay: 7.4s;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+}
+.animation_o_1{
+    width: 50px;
+    height: 50px;
+    background-color: cadetblue;
+    position: absolute;
+    animation-name: mov_o_1;
+    animation-duration: 0.5s;
+    animation-timing-function: linear; 
+    animation-delay: 8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+.animation_o_2{
+    width: 50px;
+    height: 50px;
+    background-color: cadetblue;
+    position: absolute;
+    animation-name: mov_o_2;
+    animation-duration: 0.5s;
+    animation-delay: 8.6s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+.animation_o_3{
+    width: 50px;
+    height: 50px;
+    background-color: cadetblue;
+    position: absolute;
+    animation-name: mov_o_3;
+    animation-duration: 0.5s;
+    animation-delay: 9.2s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+.animation_o_4{
+    width: 50px;
+    height: 50px;
+    background-color: cadetblue;
+    position: absolute;
+    animation-name: mov_o_4;
+    animation-duration: 0.5s;
+    animation-delay: 9.8s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+} 
+.exclamation{
+    width: 50px;
+    height: 50px;
+    background-color: cadetblue;
+    position: absolute;
+    animation-name: mov_excla;
+    animation-duration: 0.5s;
+    animation-delay: 10.4s;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+}
+.exclamation2{
+    width: 50px;
+    height: 50px;
+    background-color: cadetblue;
+    position: absolute;
+    animation-name: mov_excla2;
+    animation-duration: 0.5s;
+    animation-delay: 11s;
     animation-fill-mode: both;
     animation-timing-function: linear;
 }
