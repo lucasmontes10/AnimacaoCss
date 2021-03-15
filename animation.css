@@ -47,7 +47,29 @@ body{
     75%{top: 100px; left: 150px; height: 200px;}
     100%{top: 50px; left: 150px; height: 250px;}
 }
-/* .animacao_o_1{
+@keyframes mov_e_1{
+    0%{top: 50px; left: 250px; height: 50px;visibility: hidden;}
+    25%{top: 50px; left: 250px; height: 100px;visibility: visible;}
+    50%{top: 50px; left: 250px; height: 150px;}
+    75%{top: 50px; left: 250px; height: 200px;}
+    100%{top: 50px; left: 250px; height: 250px;}
+}
+@keyframes mov_e_2{
+    0%{top:  50px; left: 250px; width: 50px; visibility: hidden;}
+    50%{top: 50px; left: 250px; width: 100px; visibility: visible;}
+    100%{top: 50px; left: 250px; width: 150px;}
+}
+@keyframes mov_e_3{
+    0%{top:  150px; left: 250px; width: 50px; visibility: hidden;}
+    50%{top: 150px; left: 250px; width: 100px; visibility: visible;}
+    100%{top: 150px; left: 250px; width: 150px;}
+}
+@keyframes mov_e_4{
+    0%{top:  250px; left: 250px; width: 50px; visibility: hidden;}
+    50%{top: 250px; left: 250px; width: 100px; visibility: visible;}
+    100%{top: 250px; left: 250px; width: 150px;}
+}
+/* .animation_o_1{
     width: 50px;
     height: 50px;
     background-color: cadetblue;
@@ -59,7 +81,7 @@ body{
     animation-iteration-count: 1;
     animation-fill-mode: both;
 }
-.animacao_o_2{
+.animation_o_2{
     width: 50px;
     height: 50px;
     background-color: cadetblue;
@@ -70,7 +92,7 @@ body{
     animation-timing-function: linear;
     animation-fill-mode: both;
 }
-.animacao_o_3{
+.animation_o_3{
     width: 50px;
     height: 50px;
     background-color: cadetblue;
@@ -81,7 +103,7 @@ body{
     animation-timing-function: linear;
     animation-fill-mode: both;
 }
-.animacao_o_4{
+.animation_o_4{
     width: 50px;
     height: 50px;
     background-color: cadetblue;
@@ -92,7 +114,7 @@ body{
     animation-timing-function: linear;
     animation-fill-mode: both;
 } */
-.animacao_h_1{
+.animation_h_1{
     width: 50px;
     height: 50px;
     background-color: cadetblue;
@@ -102,7 +124,7 @@ body{
     animation-timing-function: linear;
     animation-fill-mode: both;
 }
-.animacao_h_2{
+.animation_h_2{
     width: 50px;
     height: 50px;
     background-color: cadetblue;
@@ -113,7 +135,7 @@ body{
     animation-fill-mode: both;
     animation-timing-function: linear;
 }
-.animacao_h_3{
+.animation_h_3{
     width: 50px;
     height: 50px;
     background-color: cadetblue;
@@ -121,6 +143,50 @@ body{
     animation-name: mov_h_3;
     animation-duration: 0.5s;
     animation-delay: 2.7s;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+}
+.animation_e_1{
+    width: 50px;
+    height: 50px;
+    background-color: cadetblue;
+    position: absolute;
+    animation-name: mov_e_1;
+    animation-duration: 0.5s;
+    animation-delay: 3.3s;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+}
+.animation_e_2{
+    width: 50px;
+    height: 50px;
+    background-color: cadetblue;
+    position: absolute;
+    animation-name: mov_e_2;
+    animation-duration: 0.5s;
+    animation-delay: 3.9s;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+}
+.animation_e_3{
+    width: 50px;
+    height: 50px;
+    background-color: cadetblue;
+    position: absolute;
+    animation-name: mov_e_3;
+    animation-duration: 0.5s;
+    animation-delay: 4.4s;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+}
+.animation_e_4{
+    width: 50px;
+    height: 50px;
+    background-color: cadetblue;
+    position: absolute;
+    animation-name: mov_e_4;
+    animation-duration: 0.5s;
+    animation-delay: 4.9s;
     animation-fill-mode: both;
     animation-timing-function: linear;
 }
